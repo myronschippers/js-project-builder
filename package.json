@@ -1,0 +1,24 @@
+{
+  "name": "js-project-builder",
+  "version": "1.0.0",
+  "description": "Interactive web interface that allows a user to select how they want their Javascript project to be bundled. From selecting the front-end and back-end frameworks to choosing the dependencies being used. This will create an initial file structure and bundler/dependency injection setup.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Myron R Schippers Jr",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-session": "^1.3.3",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1",
+    "passport": "^0.4.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.1",
+    "redux": "^4.0.4",
+    "redux-logger": "^3.0.6",
+    "redux-saga": "^1.0.5"
+  }
+}
